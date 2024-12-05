@@ -21,6 +21,10 @@ const links = [
     label: "Upload File",
     to: "/upload",
   },
+  {
+    label: "Invoice",
+    to: "/invoice",
+  },
 ];
 export default function MainLayout() {
   const { pathname } = useLocation();

@@ -6,7 +6,7 @@ import SearchPage from "./pages/search";
 import UploadFilePage from "./pages/upload-file";
 
 import "@mantine/core/styles.css";
-
+import Invoice from "./pages/invoice";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -23,6 +23,10 @@ const routes = createBrowserRouter([
       {
         path: "upload",
         element: <UploadFilePage />,
+      },
+      {
+        path: "invoice",
+        element: <Invoice />,
       },
     ],
   },
